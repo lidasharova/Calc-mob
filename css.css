@@ -1,8 +1,23 @@
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url(fonts/Montserrat-Bold.ttf);
+}
+
+
 body{
 	font-size: 25px;
 	background-color: rgba(226, 234, 234, 0.855);
+	font-family: 'Montserrat-Regular', sans-serif;
 }
 
+h1 {
+		font-family: 'Montserrat-Bold', sans-serif;
+}
 
 #main-container {
 	max-width: 2500px;
@@ -67,6 +82,7 @@ body{
 
 h2 {
 	margin-left: 80px;
+	font-family: 'Montserrat-Bold', sans-serif;
 }
 
 button{
@@ -79,6 +95,7 @@ button{
 	border-radius: 12px;
 	margin-top: 40px;
 	margin-left: 20px;
+	font-family: 'Montserrat-Bold',sans-serif;
 }
 
 .form-block{

@@ -42,19 +42,22 @@ h2 {
 }
 
 @media only screen and (max-width:424px) {
-	#container-img img {
-			width: 100%;
-			padding-left: 0px;
-		}
 
-		body {
-				font-size: 15px;
-		}
+#container-img img {
+	width: 100%;
+	padding-left: 0px;
+}
 
-		#title{
-			font-size: 15px;
-			margin-left: 2px;
-		}
+body {
+	font-size: 15px;
+}
+		
+		
+#title{
+	font-size: 15px;
+	margin-left: 2px;
+}
+
 #main-header-logo img{
 	width: 50%;
 }
@@ -91,16 +94,21 @@ ul {
 #container-img{
 	padding-left: 0px;
 }
+
 #container-info-item{
 	font-size: small;
 }
 #model-price{
-	font-size: 20px;
+	font-size: 15px;
 	margin-left: 10px;
 	margin-bottom: 20px;
 }
 
-
 h1{
 	font-size: 15px;
+}
+#autoForm{
+	margin-left: 15px;
+}
+
 }
