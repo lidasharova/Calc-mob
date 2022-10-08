@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>calculator</title>
+	<!-- подключили фавикон -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img-favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img-favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img-favicon/favicon-16x16.png">
+	<link rel="manifest" href="img-favicon/site.webmanifest">
+	<!-- подключили таблицу стилей -->
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="adaptive.css">
+
+</head>
+<body>
+	<div id="main">
+		<div id="main-container">
+
+			<div id="main-header">
+				<div id="main-header-logo">
+					<img src="img-favicon/favicon-32x32.png" alt="логотип">
+				</div>
+				<div id="title">
+					<span>Калькулятор</span>
+				</div>
+			</div>
+
+
+
+			<div id="main-content">
+				<div id="container-info">
+
+					<div id="container-info-item">
+						<div id="model-name">
+							<h1>IPhone 14 plus, <br><span> </span></h1>
+						</div>
+						<div id="model-characters">
+							<ul>
+								<li>Дисплей Super Retina XDR с диагональю 6.7 дюйма</li>
+								<li>Чип A15 Bionic</li>
+								<li>5-ядерный GPU</li>
+								<li>Face ID</li>
+							</ul>
+						</div>
+						<div id="model-price"></div>
+						<!-- <div id="model-priceUSD">тут цена в валюте будет</div> -->
+						<div id="button">
+							<button id="button">Заказать</button>
+						</div>
+					</div>
+					
+					<div id="container-img">
+						<img src="img/black.png" class="size-img" alt="фото">
+					</div>
+				</div>
+			</div>
+
+		</div>
+			<h2>Выбери свой IPhone</h2>
+		<div id="calculate-container">
+			<form id="autoForm">
+					<h3>Память</h3>
+					<div class="form-block">
+						<input type="radio" name="remember" id="remember128" value="84900" checked>
+						<label for="remember128"> 128 ГБ </label>
+					</div>
+					<div class="form-block">
+						<input type="radio" name="remember" id="remember256" value="114900">
+						<label for="remember256"> 256 ГБ </label>
+					</div>
+					<div class="form-block">
+						<input type="radio" name="remember" id="remember512" value="134900">
+						<label for="remember512"> 512 ГБ </label>
+					</div>
+					<div class="form-block">
+						<input type="radio" name="remember" id="remember1" value="154900">
+						<label for="remember1"> 1 ТБ </label>
+					</div>
+			</form>
+
+			<form id="autoForm">
+				<h3>Состояние IPhone</h3>
+				<div class="form-block">
+					<input type="radio" name="condition" id="condition1" value="1000" checked>
+					<label for='condition1'> б/у </label>
+				</div>
+					<div class="form-block">
+						<input type="radio" name="condition" id="condition2" value="10000">
+						<label for='condition2'> восстановленный </label>
+					</div>
+					<div class="form-block">
+						<input type="radio" name="condition" id="condition3" value="25000">
+						<label for='condition3'> новый </label>
+					</div>
+			</form>
+
+				
+			<div id="color-container">
+					<div id ="color-container-items">
+						<h3>Цвет</h3>
+						<div id="colorSelector" class="colorSelector">
+							<div class="colorItem colorBlack" data-img-path='img/black.png'></div>
+							<div class="colorItem colorBlue" data-img-path='img/blue.png'></div>
+							<div class="colorItem colorPirple" data-img-path='img/pirple.png'></div>
+							<div class="colorItem colorRed" data-img-path='img/red.png'></div>
+							<div class="colorItem colorSl" data-img-path='img/sl.png'></div>
+							
+						</div>
+					</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- //подключили библиотеку jQuery -->
+
+	<script src="jQuery/jquery-3.6.1.min.js"></script> 
+	<script src="js.js"></script>
+</body>
+</html>

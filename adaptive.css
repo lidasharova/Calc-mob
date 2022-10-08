@@ -1,0 +1,105 @@
+@media only screen and (max-width:768px) {
+	body{
+		font-size: 20px;
+	}
+	#container-info{
+		margin-left: 10px;
+		max-width: 700px;
+	}
+
+	#container-info-item {
+			width: 700px;
+		}
+
+h2 {
+	margin-left: 10px;
+}
+
+#calculate-container {
+	margin-left: 0px;
+}
+
+#autoForm{
+	margin-left: 30px;
+}
+
+#container-img {
+	
+	padding-left: 20px;
+		}
+
+#container-img img {
+			width: 100%;
+			padding-left: 20px;
+		}
+
+#container-info {
+			margin-left: 0px;
+		}
+#calculate-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width:424px) {
+	#container-img img {
+			width: 100%;
+			padding-left: 0px;
+		}
+
+		body {
+				font-size: 15px;
+		}
+
+		#title{
+			font-size: 15px;
+			margin-left: 2px;
+		}
+#main-header-logo img{
+	width: 50%;
+}
+
+button {
+	width: 80px;
+	height: 25px;
+	background-color: rgb(179, 237, 237, 0.691);
+	border: 2px solid rgb(33, 79, 230);
+	color: rgb(33, 79, 230);
+	font-size: 15px;
+	align-content: center;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+#calculate-container{
+	margin-top: 0px;
+
+}
+h2{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+#color-container-items{
+	margin-left: 10px;
+}
+ul {
+	padding-left: 15px;
+}
+#container-img{
+	padding-left: 0px;
+}
+#container-info-item{
+	font-size: small;
+}
+#model-price{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+
+h1{
+	font-size: 15px;
+}
