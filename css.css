@@ -1,152 +1,145 @@
 @font-face {
-	font-family: 'Montserrat-Regular';
-	src: url(fonts/Montserrat-Regular.ttf);
+  font-family: 'Montserrat-Regular';
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
-	font-family: 'Montserrat-Bold';
-	src: url(fonts/Montserrat-Bold.ttf);
+  font-family: 'Montserrat-Bold';
+  src: url(fonts/Montserrat-Bold.ttf);
 }
 
-
-body{
-	font-size: 25px;
-	background-color: rgba(226, 234, 234, 0.855);
-	font-family: 'Montserrat-Regular', sans-serif;
+body {
+  font-size: 25px;
+  background-color: rgba(226, 234, 234, 0.855);
+  font-family: 'Montserrat-Regular', sans-serif;
 }
 
 h1 {
-		font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 #main-container {
-	max-width: 2500px;
-	margin: 0 auto;
-	padding-top: 5px;
+  max-width: 2500px;
+  margin: 0 auto;
+  padding-top: 5px;
 }
 
-#container-info-item{
-	width: 1000px;
+#container-info-item {
+  width: 1000px;
 }
 
 #main-header {
-	display: flex;
-	align-items: center;
-	background-color: rgba(179, 237, 237, 0.691);
+  display: flex;
+  align-items: center;
+  background-color: rgba(179, 237, 237, 0.691);
 }
 
 #title {
-	font-size: 25px;
-	color: rgb(8, 56, 160);
-	margin-left: 10px;
+  font-size: 25px;
+  color: rgb(8, 56, 160);
+  margin-left: 10px;
 }
 
-#container-info{
-	display: flex;
-	max-width: 100%;
-	margin-left: 80px;
-	align-items: center;
+#container-info {
+  display: flex;
+  max-width: 100%;
+  margin-left: 80px;
+  align-items: center;
 }
 
-#container-img{
-	max-width: 100%;
-	padding-left: 150px;
+#container-img {
+  max-width: 100%;
+  padding-left: 150px;
 }
 
-#model-price, #model-priceUSD{
-	color: rgba(12, 12, 143, 0.763);
-	font-family: sans-serif, bold;
-	font-size: 28px ;
-	margin-top: 10px;
-	margin-left: 30px;
-	
+#model-price,
+#model-priceUSD {
+  color: rgba(12, 12, 143, 0.763);
+  font-family: sans-serif, bold;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
-
-#container-img img{
-	width: 50%;
+#container-img img {
+  width: 50%;
 }
 
-#colorSelector{
-	display: flex;
+#colorSelector {
+  display: flex;
 }
 
-#calculate-container{
-	display: flex;
-	
+#calculate-container {
+  display: flex;
 }
 
-#autoForm{
-	margin-left: 80px;
+#autoForm {
+  margin-left: 80px;
 }
 
 h2 {
-	margin-left: 80px;
-	font-family: 'Montserrat-Bold', sans-serif;
+  margin-left: 80px;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
-button{
-	width: 130px;
-	height: 35px;
-	background-color: rgb(179,237,237,0.691);
-	border: 2px solid rgb(33, 79, 230);
-	color: rgb(33, 79, 230);
-	font-size: 20px;
-	border-radius: 12px;
-	margin-top: 40px;
-	margin-left: 20px;
-	font-family: 'Montserrat-Bold',sans-serif;
+button {
+  width: 130px;
+  height: 35px;
+  background-color: rgb(179, 237, 237, 0.691);
+  border: 2px solid rgb(33, 79, 230);
+  color: rgb(33, 79, 230);
+  font-size: 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
-.form-block{
-	margin-bottom: 10px;
+.form-block {
+  margin-bottom: 10px;
 }
 
-
-.colorItem{
-	margin-left: 20px;
-	border: 1px solid black;
+.colorItem {
+  margin-left: 20px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-
-#color-container-items{
-	margin-left: 70px;}
-
+#color-container-items {
+  margin-left: 70px;
+}
 
 .colorBlack {
-	width: 2em;
-	height: 2em;
-	background: black;
-	border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  background: black;
+  border-radius: 50%;
 }
 
-
 .colorBlue {
-	width: 2em;
-	height: 2em;
-	background: #a1b4c5;
-	border-radius: 50%;
-
+  width: 2em;
+  height: 2em;
+  background: #a1b4c5;
+  border-radius: 50%;
 }
 
 .colorPirple {
-	width: 2em;
-	height: 2em;
-	background: #cab1d9;
-	border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  background: #cab1d9;
+  border-radius: 50%;
 }
 
-
 .colorRed {
-	width: 2em;
-	height: 2em;
-	background: rgb(240, 36, 36);
-	border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  background: rgb(240, 36, 36);
+  border-radius: 50%;
 }
 
 .colorSl {
-	width: 2em;
-	height: 2em;
-	background: #fbf6f2;
-	border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  background: #fbf6f2;
+  border-radius: 50%;
 }
