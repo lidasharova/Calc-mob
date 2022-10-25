@@ -1,2 +1,2 @@
-# [Калькулятор](https://lidasharova.github.io/Calculator-mobile-price/),
+# [Калькулятор](https://lidasharova.github.io/Calc-mob/),
 ## созданный с использованием библиотеки jQuery
